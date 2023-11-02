@@ -27,3 +27,47 @@ main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
 }
+
+footer {
+  background-color: burlywood;
+}
+
+
+
+
+/* Groups & Items  (Desktop) */
+
+@media screen and (min-width: 750px) {
+  section,
+  h1 {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .coffee-pour-img {
+    width: 60%;
+  }
+  .coffee-history {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .coffee-history-item {
+    flex: 1;
+    max-width: 30%; 
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .coffee-history-item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+}
